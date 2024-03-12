@@ -14,9 +14,9 @@ class MiApp0534 extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       initialRoute: "/",
       routes: {
-        "/": (context) => PantallaIni_0534(),
-        "/pantalla1_0534": (context) => Pantalla1_0534(),
-        "/pantalla2_0534": (context) => Pantalla2_0534()
+        "/": (context) => const PantallaIni_0534(),
+        "/pantalla1_0534": (context) => const Pantalla1_0534(),
+        "/pantalla2_0534": (context) => const Pantalla2_0534()
       }, //Fin ruta paginas
     ); //Fin de material
   } //Fin Widgets

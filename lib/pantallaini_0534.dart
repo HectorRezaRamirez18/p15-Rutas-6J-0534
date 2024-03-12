@@ -7,7 +7,7 @@ class PantallaIni_0534 extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Pagina Inicial Reza0534"),
+        title: const Text("Pagina Inicial Reza0534"),
         backgroundColor: Colors.red,
       ),
       body: Center(
@@ -18,12 +18,12 @@ class PantallaIni_0534 extends StatelessWidget {
                 onPressed: () {
                   Navigator.pushNamed(context, "/pantalla1_0534");
                 }, //Fin de onPressed
-                child: const Text("Mover a Pantalla1")),
+                child: const Text("Ejemplo Card 1")),
             ElevatedButton(
                 onPressed: () {
                   Navigator.pushNamed(context, "/pantalla2_0534");
                 }, //Fin de onPressed
-                child: const Text("Mover a Pantalla2")),
+                child: const Text("Ejemplo Card 2")),
           ],
         ),
       ),
