@@ -9,21 +9,21 @@ class Pantalla2_0534 extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Color(0xffd536f4),
+        backgroundColor: Color(0xfff4a836),
         title: const Text('Pantalla2 Reza0534'),
       ),
       body: Center(
         child: Container(
-          color: Color(0xfff17ea5),
-          width: double.infinity,
-          height: 150,
-          child: Card(
-            color: Color(0xffe896b2),
-            margin: EdgeInsets.all(16),
-            child: Text(
-              "Tarjeta 2 Reza0534",
-              style: TextStyle(fontSize: 30, color: Colors.white),
-            ),
+          color: Color(0xff988c1a),
+          constraints: BoxConstraints(
+            minHeight: 100,
+            minWidth: 200,
+            maxHeight: 300,
+            maxWidth: 300,
+          ),
+          child: Text(
+            " Card2 Reza0534",
+            style: TextStyle(fontSize: 30, color: Colors.white),
           ),
         ),
       ),
